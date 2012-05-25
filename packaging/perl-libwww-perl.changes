@@ -1,0 +1,19 @@
+* Sat May 21 2011 Anas Nashif <anas.nashif@intel.com> - 5.836
+- Filter out unused modules
+
+* Tue Aug 17 2010 Quanxian Wang <quanxian.wang@intel.com>  - 5.836
+- update to 5.836
+
+* Wed June 30 2010 Quanxian Wang <quanxian.wang@intel.com>  - 5.834
+- Add %doc before man file entry
+
+* Thu Dec 24 2009 Passion Zhao <passion.zhao@intel.com> - 5.834
+- Update to 5.834
+
+* Wed Dec 23 2009 Anas Nashif <anas.nashif@intel.com> - 5.833
+- Update to 5.833
+
+* Thu Feb 19 2009 Zhu Yanhai <yanhai.zhu@intel.com>
+- update to 5.825
+- remove rt 38736 patch, it has already been applyed to the lastest src now.
+- update the patch which disables some tests.
