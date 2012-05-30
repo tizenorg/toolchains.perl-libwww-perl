@@ -13,7 +13,7 @@ Group:      Development/Libraries
 License:    GPL+ or Artistic
 BuildArch:  noarch
 URL:        http://search.cpan.org/dist/libwww-perl/
-Source0:    http://www.cpan.org/authors/id/G/GA/GAAS/libwww-perl-%{version}.tar.gz
+Source0:    %{name}-%{version}.tar.bz2
 Source100:  perl-libwww-perl.yaml
 Requires:   perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 Requires:   perl(Compress::Zlib)
@@ -37,7 +37,7 @@ help you implement simple HTTP servers.
 
 
 %prep
-%setup -q -n libwww-perl-%{version}
+%setup
 
 # >> setup
 # Filter the automatically generated dependencies.
