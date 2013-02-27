@@ -87,5 +87,5 @@ done
 %{perl_vendorlib}/LWP/*
 %{perl_vendorlib}/Net/*
 %{perl_vendorlib}/WWW/*
-#%doc %{_mandir}/man1/*.1*
-#%doc %{_mandir}/man3/*.3*
+%doc %{_mandir}/man1/*.1*
+%doc %{_mandir}/man3/*.3*
