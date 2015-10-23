@@ -64,6 +64,12 @@ fi
 
 # >> build post
 # << build post
+
+%check
+# >> check
+#make test
+# << check
+
 %install
 rm -rf %{buildroot}
 # >> install pre
@@ -93,15 +99,6 @@ ln -sf /etc/mime.types $file
 done
 
 # << install post
-%check
-# >> check
-#make test
-# << check
-
-
-
-
-
 
 %files
 %defattr(-,root,root,-)
